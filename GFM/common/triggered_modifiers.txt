@@ -630,7 +630,7 @@ ils_ne_passeront_pas = {
         NOT = {owns = 409 }
         ai = yes
     }
-    mobilisation_size = 0.76
+    mobilisation_size = 0.35
     mobilisation_economy_impact = -0.7
     core_pop_militancy_modifier = -0.1
     land_defense_modifier = 0.5
@@ -647,7 +647,7 @@ glory_prussia = {
         NOT = { year = 1880 }
         ai = yes
     }
-    mobilisation_size = 0.5
+    mobilisation_size = 0.25
     mobilisation_economy_impact = -0.5
     core_pop_militancy_modifier = -0.01
     land_attack_modifier = 0.1
@@ -948,7 +948,7 @@ pashtunwali = {
     land_unit_start_experience = 5
     org_regain = 0.2
     war_exhaustion = -2.5
-    mobilisation_size = 0.2
+    mobilisation_size = 0.1
 }
 
 line_of_advantage = {
@@ -1070,7 +1070,7 @@ player_unciv_mobilization = {
         NOT = { civilized = yes }
     }
 
-    mobilisation_size = 0.02
+    mobilisation_size = 0.01
     icon = 9
 }
 
@@ -1116,7 +1116,7 @@ totalitarianism_modifier = {
         }
     }
     suppression_points_modifier = 0.5
-    mobilization_impact = -0.2
+    mobilization_impact = -0.1
     global_immigrant_attract = -0.25
     issue_change_speed = -0.25
     political_reform_desire = -0.1
@@ -1172,7 +1172,7 @@ collectivisation_modifier = {
         invention = collectivisation
         government = proletarian_dictatorship
     }
-    mobilisation_size = 0.02
+    mobilisation_size = 0.01
     education_efficiency_modifier = 0.15
     tax_efficiency = 0.05
     factory_throughput = 0.05
@@ -1209,7 +1209,7 @@ save_the_nation0.5  = {
     suppression_points_modifier = 0.05
 
     land_organisation = 0.0125
-    mobilisation_size = 0.005
+    mobilisation_size = 0.0025
     supply_consumption = -0.025
     icon = 9
 }
@@ -1223,7 +1223,7 @@ save_the_nation1  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.025
-    mobilisation_size = 0.01
+    mobilisation_size = 0.005
     supply_consumption = -0.05
     icon = 9
 }
@@ -1237,9 +1237,9 @@ save_the_nation1.5  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.05
-    mobilisation_size = 0.015
+    mobilisation_size = 0.0075
     supply_consumption = -0.1
-    mobilization_impact = 0.125
+    mobilization_impact = 0.0675
     mobilisation_economy_impact = -0.0625
     icon = 9
 }
@@ -1253,9 +1253,9 @@ save_the_nation2  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.075
-    mobilisation_size = 0.02
+    mobilisation_size = 0.01
     supply_consumption = -0.15
-    mobilization_impact = 0.25
+    mobilization_impact = 0.125
     mobilisation_economy_impact = -0.125
     icon = 9
 }
@@ -1269,9 +1269,9 @@ save_the_nation2.5  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.0875
-    mobilisation_size = 0.025
+    mobilisation_size = 0.015
     supply_consumption = -0.175
-    mobilization_impact = 0.375
+    mobilization_impact = 0.285
     mobilisation_economy_impact = -0.19
     icon = 9
 }
@@ -1285,9 +1285,9 @@ save_the_nation3  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.1
-    mobilisation_size = 0.03
+    mobilisation_size = 0.02
     supply_consumption = -0.20
-    mobilization_impact = 0.5
+    mobilization_impact = 0.35
     mobilisation_economy_impact = -0.25
     icon = 9
 }
@@ -1301,9 +1301,9 @@ save_the_nation3.5  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.15
-    mobilisation_size = 0.035
+    mobilisation_size = 0.025
     supply_consumption = -0.25
-    mobilization_impact = 0.75
+    mobilization_impact = 0.45
     mobilisation_economy_impact = -0.375
     icon = 9
 }
@@ -1317,9 +1317,9 @@ save_the_nation4  = {
     suppression_points_modifier = 0.10
 
     land_organisation = 0.2
-    mobilisation_size = 0.04
+    mobilisation_size = 0.03
     supply_consumption = -0.30
-    mobilization_impact = 1
+    mobilization_impact = 0.75
     mobilisation_economy_impact = -0.5
     icon = 9
 }
@@ -1334,9 +1334,9 @@ save_the_nation4.5  = {
 
     land_organisation = 0.225
     land_unit_start_experience = 2.5
-    mobilisation_size = 0.045
+    mobilisation_size = 0.035
     supply_consumption = -0.30
-    mobilization_impact = 1
+    mobilization_impact = 0.75
     mobilisation_economy_impact = -0.58
     icon = 9
 }
@@ -1350,9 +1350,9 @@ save_the_nation5  = {
 
     land_organisation = 0.25
     land_unit_start_experience = 5
-    mobilisation_size = 0.05
+    mobilisation_size = 0.04
     supply_consumption = -0.30
-    mobilization_impact = 1
+    mobilization_impact = 0.75
     mobilisation_economy_impact = -0.66
     icon = 9
 }

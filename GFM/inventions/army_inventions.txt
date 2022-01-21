@@ -95,7 +95,7 @@ railroad_transport_groups = {
         }
     }
     effect = {
-        mobilisation_size = 0.01
+        mobilisation_size = 0.005
     }
 }
 #point_defense_system
@@ -230,7 +230,7 @@ staff_command_support = {
         }
     }
     effect = {
-        mobilisation_size = 0.01
+        mobilisation_size = 0.005
     }
 }
 #deep_defense_system
@@ -1311,7 +1311,7 @@ mobilization_time_tables = {
         }
     }
     effect = {
-        mobilisation_size = 0.01
+        mobilisation_size = 0.005
     }
 }
 
@@ -1332,7 +1332,7 @@ personnel_category_tables = {
         }
     }
     effect = {
-        mobilisation_size = 0.01
+        mobilisation_size = 0.005
     }
 }
 
